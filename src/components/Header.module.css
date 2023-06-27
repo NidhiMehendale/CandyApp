@@ -1,0 +1,35 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .container input {
+    flex: 1;
+  }
+
+  .button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    color: white;
+    padding: 0.75rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    font-weight: bold;
+  }
